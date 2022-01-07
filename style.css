@@ -1,0 +1,27 @@
+* { 
+	padding: 0; 
+	margin: 0; 
+}
+
+#game-heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+
+#game-heading h1 {
+	font-family: sans-serif;
+}
+
+#game-heading img {
+	height: 50px;
+	width: 50px;
+}
+
+canvas {
+	background: #eee; 
+	display: block; 
+	margin: 0 auto;
+	border: 1px solid black;
+}
